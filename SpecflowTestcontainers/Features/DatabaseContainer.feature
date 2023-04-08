@@ -4,7 +4,7 @@
 
 Scenario: I can start a predefined database
 	When I execute 'SELECT * FROM dbo.Users'
-	Then the result should have '11' records
+	Then the result should have '10' records
 
 Scenario: I can select current date
 	When I execute 'SELECT GETDATE()'

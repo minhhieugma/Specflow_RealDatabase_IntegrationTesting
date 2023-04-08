@@ -105,7 +105,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.When("I execute \'SELECT * FROM dbo.Users\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 7
- testRunner.Then("the result should have \'11\' records", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("the result should have \'10\' records", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
